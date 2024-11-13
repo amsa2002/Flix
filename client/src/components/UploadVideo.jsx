@@ -36,7 +36,7 @@ function UploadVideo() {
         formData.append('description', e.target.description.value)
         formData.append('video', e.target.video.files[0]);
 
-        const res = await fetch('http://localhost:5000/api/upload', {
+        const res = await fetch('http://localhost:6002/api/upload', {
             method: 'POST',
             body: formData
         })

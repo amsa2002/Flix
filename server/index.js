@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const mongoose = require('mongoose')
-const port = 5000
+const port = 6002
 const dotenv = require('dotenv')
 dotenv.config()
 const {readdirSync} = require('fs')
