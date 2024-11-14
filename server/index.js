@@ -30,9 +30,9 @@ database.on('error', (err) => console.error('❌ MongoDB connection error:', err
 database.on('disconnected', () => console.warn('⚠️ MongoDB disconnected'));
 
 
-// app.get('/', (req,res)=>{
-//     res.send('Express is running')
-// })
+ app.get('/', (req,res)=>{
+     res.send('Express is running')
+ })
 
 app.listen(port, ()=>{
     console.log(`App is listening port ${port}`)
